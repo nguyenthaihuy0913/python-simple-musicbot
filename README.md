@@ -19,14 +19,16 @@ Bot phát nhạc Discord này được thiết kế với cấu trúc mã nguồ
 
 **Bước 1: Sao chép (Clone) kho lưu trữ**
 Mở Terminal hoặc Command Prompt và chạy lệnh sau:
-```bash
-git clone [https://github.com/nguyenthaihuy0913/python-simple-musicbot.git](https://github.com/nguyenthaihuy0913/python-simple-musicbot.git)
+
+```
+git clone https://github.com/nguyenthaihuy0913/python-simple-musicbot.git
 cd python-simple-musicbot
+```
 Bước 2: Cài đặt các thư viện phụ thuộc (Dependencies)
 Cài đặt các thư viện cần thiết thông qua pip:
-
-Bash
+```
 pip install discord.py yt-dlp PyNaCl
+```
 (Ghi chú: Thư viện PyNaCl là module bắt buộc để discord.py hỗ trợ tính năng Voice).
 
 Bước 3: Cấu hình Token kết nối
@@ -42,8 +44,9 @@ Thay thế đoạn "DÁN_TOKEN_CỦA_BẠN_VÀO_ĐÂY" bằng Token Bot thực t
 🏃‍♂️ Khởi chạy Bot
 Sau khi hoàn tất cấu hình, khởi chạy bot bằng lệnh:
 
-Bash
+```
 python main.py
+```
 Nếu Terminal hiển thị dòng thông báo: ✅ Khởi động thành công! Bot ... đã sẵn sàng nhận lệnh!, bạn đã có thể truy cập vào server Discord của mình, tham gia một kênh thoại bất kỳ và gõ lệnh !play để trải nghiệm.
 
 👨‍💻 Tác giả
