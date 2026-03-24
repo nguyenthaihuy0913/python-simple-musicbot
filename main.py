@@ -75,6 +75,5 @@ async def on_ready():
 
 # ==========================================
 # 🛑 THAY TOKEN CỦA BẠN VÀO BÊN DƯỚI
-# LƯU Ý: XÓA TOKEN TRƯỚC KHI ĐẨY LÊN GITHUB
 # ==========================================
 bot.run("DÁN_TOKEN_CỦA_BẠN_VÀO_ĐÂY")
